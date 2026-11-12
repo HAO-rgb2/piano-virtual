@@ -273,15 +273,3 @@ svg polyline {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-
-
-/* Botão de reprodução */
-#aside > button {
-  display: block;
-  position: relative;
-  z-index: 10;
-  visibility: visible;
-  opacity: 1;
-  min-height: 44px;
-  cursor: pointer;
-}

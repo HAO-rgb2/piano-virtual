@@ -352,9 +352,8 @@ class ArpPlayer {
     this._loadStepsSelector();
     this._loadTypeSelector();
     this._loadPatternSelector();
-    // Cria o botão de reprodução antes de configurar os sintetizadores.
-    this._loadTransport();
     this._loadSynths();
+    this._loadTransport();
 
     document.addEventListener('visibilitychange', () => {
       this.player.playing = true;
